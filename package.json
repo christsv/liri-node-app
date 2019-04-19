@@ -1,0 +1,26 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": ".env contians the spotify keys but since it is in the .gitignore it is not accessible to users therefore it private .gitignore is use to suspend certain files from being commited to github keys.js is where the id and secret are liri.js is where the main codes are liriBonus.js utilize the same idea but has fs node package that writes to log.txt log.txt is used to write the CLI input  package.json houses all of the dependancies random.txt is going to be use in the liri.js to run without user having to type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christsv/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "Chris Valenzuela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christsv/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/christsv/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
